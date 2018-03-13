@@ -1,0 +1,92 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	-webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+
+
+
+.demo-4 .main-title {
+	font-size: 6em;
+	font-weight: 300;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title,
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
+
+.overlay {
+    position:absolute;
+    z-index:1;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	word-spacing: 500px;
+}
+
+.logo a {
+	display:inline-block;
+	margin:0 auto 95px;
+	padding:0 28px;
+	text-transform:uppercase;
+	line-height:75px;
+	font-size:26px;
+	color:white;
+	border:2px solid white;
+}
+.logo a span {
+	display:inline-block;
+	padding-right:18px;
+}
+.logo a span.last {padding-right:0;}
+.logo a span.b1 {font-weight:900;}
+.logo a span.b2 {font-weight:700;}
+.logo a span.b3 {font-weight:400;}
+.logo a span.b4 {font-weight:300;}
+.logo a span.b5 {font-weight:100;}
+
+.codrops-header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.image {
+	width: 60vw;
+	height: 60vh;
+}
